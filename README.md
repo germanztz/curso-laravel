@@ -1,7 +1,7 @@
 # curso-laravel
 Curso introductorio de Larabel
 
-### 1 Setting dev environment
+### 1. Setting dev environment
 
 ```bash
 #!/bin/bash
@@ -23,7 +23,16 @@ laravel -v
 npm -v
 ```
 
-### 1 Creating scaffold project
+### 2. Install IDE with extensions
+
+```bash
+sudo snap install code
+code --install-extension xdebug.php-pack
+code --install-extension laravel.vscode-laravel
+```
+
+
+### 3. Creating scaffold project
 
 ```bash
 laravel new --database sqlite --npm --pest -q chirper

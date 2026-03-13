@@ -19,14 +19,14 @@ nvm use --lts
 
 ```bash
 php -v
-laravel -v
+laravel -V
 npm -v
 ```
 
 ### 2. Install IDE with extensions
 
 ```bash
-sudo snap install code
+sudo snap install code --classic
 code --install-extension xdebug.php-pack
 code --install-extension laravel.vscode-laravel
 ```
